@@ -2,7 +2,10 @@
 from __future__ import division
 import math
 import operator as op
-raw_input=input
+
+import sys
+if sys.version > '3' : raw_input = input
+
 ################ Types
 
 Symbol = str          # A Lisp Symbol is implemented as a Python str
